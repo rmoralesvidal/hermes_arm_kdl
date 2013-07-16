@@ -11,6 +11,8 @@
   <depend package="roscpp"/>
   <depend package="rospy"/>
   <depend package="urdf"/>
+  <depend package="kdl_parser"/>
+  <depend package="kdl"/>
 
 </package>
 
