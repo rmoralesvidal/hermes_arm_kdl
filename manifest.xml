@@ -1,7 +1,7 @@
 <package>
-  <description brief="hermesArmKDLtest">
+  <description brief="hermes_arm_kdl">
 
-     hermesArmKDLtest
+     hermes_arm_kdl
 
   </description>
   <author>ricardo</author>
@@ -13,6 +13,7 @@
   <depend package="urdf"/>
   <depend package="kdl_parser"/>
   <depend package="kdl"/>
+  <depend package="std_msgs"/>
 
 </package>
 
