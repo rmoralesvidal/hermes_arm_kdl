@@ -44,9 +44,16 @@ int main(int argc, char** argv){
   KDL::JntArray q(hermes_chain.getNrOfJoints());
   
   // Assign values to the joints
-  for(unsigned int i=0;i<hermes_chain.getNrOfJoints();i++){
+  /*for(unsigned int i=0;i<hermes_chain.getNrOfJoints();i++){
         q(i)=0.0;
-    }
+    }*/
+ q(0) = -0.1;
+ q(1) = 1.2;
+ q(2) = -0.3;
+ q(3) = 0.6;
+ q(4) = 0.4;
+ q(5) = 0.75;
+ q(6) = -0.1;
 
   // Create the frame that will contain the results
     KDL::Frame cartpos;    
